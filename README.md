@@ -2,9 +2,9 @@
 
 ## 🖼️ Dashboard Previews
 
-![Monthly Call Volume: Forecast vs Actual](assets/monthly_call_volume.png)
+![Monthly Call Volume: Forecast vs Actual](monthly_call_volume.png)
 
-![Shrinkage % vs Service Level % by LOB](assets/shrinkage_vs_service_level.png)
+![Shrinkage % vs Service Level % by LOB](shrinkage_vs_service_level.png)
 
 ---
 
