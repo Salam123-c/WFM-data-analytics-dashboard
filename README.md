@@ -1,9 +1,5 @@
 # 📊 WFM Data Analytics & Executive Dashboard
 
-[![Python](https://img.shields.io/badge/Python-3.9%2B-blue?logo=python)](https://www.python.org/)
-[![Pandas](https://img.shields.io/badge/Pandas-2.0%2B-150458?logo=pandas)](https://pandas.pydata.org/)
-[![License](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
-[![Code Style](https://img.shields.io/badge/code%20style-black-000000)](https://github.com/psf/black)
 
 &gt; **Production-grade Workforce Management analytics engine** for a multi-client contact centre facing Service Level decline, high call-volume variance, and elevated shrinkage.
 
@@ -14,10 +10,10 @@ This project demonstrates end-to-end data engineering, KPI modelling, executive 
 ## 🖼️ Dashboard Previews
 
 ### Monthly Call Volume: Forecast vs Actual
-![Monthly Call Volume](assets/monthly_call_volume.png)
+![Monthly Call Volume](monthly_call_volume.png)
 
 ### Shrinkage % vs Service Level % by LOB
-![Shrinkage vs Service Level](assets/shrinkage_vs_service_level.png)
+![Shrinkage vs Service Level](shrinkage_vs_service_level.png)
 
 ---
 
