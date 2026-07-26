@@ -1,15 +1,18 @@
 # 📊 WFM Data Analytics & Executive Dashboard
 
-## 📊 Executive Dashboard Overview
-![Monthly Call Volume Dashboard](Screenshot%202026-07-20%20173518.png)
+## 🖼️ Dashboard Previews
 
-![Shrinkage vs Service Level Dashboard](Screenshot%202026-07-20%20173539.png)
+![Monthly Call Volume: Forecast vs Actual](assets/monthly_call_volume.png)
+
+![Shrinkage % vs Service Level % by LOB](assets/shrinkage_vs_service_level.png)
+
 ---
 
 ## 📌 Business Scenario & Objective
-Operational analysis for a multi-client contact center facing **Service Level (SL) decline**, **high call volume variance**, and **elevated shrinkage**. 
 
-* **Goal:** Clean multi-source data, calculate core operational KPIs, design an executive dashboard, and identify top operational risks.
+Operational analysis for a multi-client contact center facing **Service Level (SL) decline**, **high call volume variance**, and **elevated shrinkage**.
+
+**Goal:** Clean multi-source data, calculate core operational KPIs, design an executive dashboard, and identify top operational risks.
 
 ---
 
@@ -26,6 +29,7 @@ Operational analysis for a multi-client contact center facing **Service Level (S
 ---
 
 ## 🚨 Top Operational Risks Identified
+
 1. **Critical Forecast Accuracy Deficit (~41%):** Under/over-staffing spikes directly driving SL misses.
 2. **Unstable Service Levels (~77.3%):** High daily variance risking SLA penalty exposure.
 3. **Shrinkage Volatility:** High unplanned shrinkage causing interval-level staffing gaps.
@@ -34,6 +38,7 @@ Operational analysis for a multi-client contact center facing **Service Level (S
 ---
 
 ## ⚙️ Project Implementation & Methodology
+
 1. **Data Cleaning & QA:** Standardized LOB variants (e.g., `" Retail"`, `"banking"` to canonical categories) and deduplicated repeat agent logs.
 2. **Dynamic Calculations:** Modeled KPIs using Excel formulas (`SUMIFS`, `AVERAGEIFS`) for dynamic filtering.
 3. **Executive Dashboard:** Built interactive layout supporting LOB and Site slicer filters.
