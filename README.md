@@ -137,3 +137,22 @@ Weighted severity scoring using configurable weights:
 ---
 
 ## 🏗️ Architecture
+┌─────────────┐     ┌─────────────┐     ┌─────────────┐
+│ DataLoader  │────▶│ DataCleaner │────▶│KPI Calculator│
+│  (5 sheets) │     │(Audit Log)  │     │ (9 KPIs)     │
+└─────────────┘     └─────────────┘     └──────┬──────┘
+│
+┌────────────────────────────────────────┘
+▼
+┌──────────────┐  ┌──────────────┐  ┌─────────────┐  ┌──────────────┐
+│ PivotEngine  │  │DashboardBuilder│  │RiskAnalyzer │  │Recommendation│
+│ (LOB/Site/   │  │ (KPI Cards +  │  │ (Top 5)     │  │   Engine     │
+│   Month)     │  │  Trend Data)  │  │             │  │  (10 Actions) │
+└──────┬───────┘  └──────┬───────┘  └──────┬──────┘  └──────┬───────┘
+└─────────────────┴─────────────────┴────────────────┘
+│
+▼
+┌──────────────┐
+│ReportExporter│
+│ (16 Sheets)  │
+└──────────────┘
